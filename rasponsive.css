@@ -1,0 +1,171 @@
+/*==========================================
+            Responsive-Area
+==========================================*/
+/* / Display SIze 1366 / */
+@media only screen and (max-width: 1919px) {}
+
+@media only screen and (max-width: 1500px) {}
+
+/* / Display SIze 1280 / */
+@media only screen and (max-width:1365px) {
+
+
+    #section-quote .container-pe-quote.right {
+        right: 220px;
+    }
+
+}
+
+/* / Display SIze 1024 / */
+@media only screen and (max-width: 1279px) {
+
+
+    #section-quote .container-quote .quote {
+        top: 30px;
+    }
+
+    .quote img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #section-quote .container-quote .quote {
+        left: 90%;
+    }
+
+
+    /*end for-page */
+}
+
+/* / Display SIze 980 / */
+@media only screen and (max-width: 1023px) {
+    #section-quote .container-quote .quote {
+        left: 65%;
+    }
+
+
+    #section-quote {
+        overflow: hidden;
+    }
+
+    #section-quote .container-quote .quote {
+        top: 30px;
+    }
+
+    .quote img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+    #section-quote .container-quote .quote p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container-quote-left {
+        left: 20%;
+        top: 38%;
+    }
+
+    .quote img {
+        width: 50%;
+    }
+
+
+}
+
+/* / Display SIze 890 / */
+@media only screen and (max-width: 991px) {
+    #section-quote .container-quote .quote {
+        left: 50%;
+    }
+
+
+
+    #section-quote .container-quote .quote p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+
+}
+
+/* / Display SIze 780 / */
+@media only screen and (max-width: 899px) {
+
+    .container-quote-left {
+        position: absolute;
+        left: 15%;
+        top: 30%;
+    }
+
+
+    #section-quote .container-quote .quote .container-info .pp {
+        height: 170px;
+        width: 170px;
+        border-radius: 100%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 120%;
+        -webkit-transform: translateY(-0%);
+        -moz-transform: translateY(-0%);
+        -ms-transform: translateY(-0%);
+        -o-transform: translateY(-0%);
+        transform: translateY(-0%);
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #section-quote {
+        overflow: hidden !important;
+    }
+
+
+}
+
+/* .list-group li:first-child {
+    margin-top: 30px !important;
+} */
+/* / Display SIze 768 / */
+@media only screen and (max-width: 799px) {
+    #section-quote .container-quote .quote {
+        padding: 0 68px;
+    }
+
+    .quote img {
+        display: none;
+    }
+
+    #section-quote .container-quote-middle {
+
+        height: 240px !important;
+
+    }
+
+    #section-quote .container-pe-quote.right {
+
+        display: none;
+    }
+}
+
+/* / Display SIze 640 / */
+@media only screen and (max-width: 767px) {}
+
+/* / Display SIze 600 / */
+@media only screen and (max-width:639px) {}
+
+/* / Display SIze 360 / */
+@media only screen and (max-width:599px) {}
+
+/* / Display SIze 320 / */
+@media only screen and (max-width:359px) {}
